@@ -1,4 +1,4 @@
-# Math-magicians
+# math-magicians
 <a name="readme-top"></a>
 
 <div align="center">
@@ -30,7 +30,7 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 math-magician <a name="about-project"></a>
+# 📖 Math-magicians <a name="about-project"></a>
 
 **Math Magicians** is a simple Project built through react npx create-react-app. User can interact by performing the calculator functions. In future versions there is going to complete website version of math magician Project will be developed using react components. 
 
