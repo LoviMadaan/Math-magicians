@@ -22,7 +22,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: linear-gradient(rgb(158, 211, 238), rgb(124, 184, 244));
+  background-color: rgb(87, 87, 87);
 }
 
 #root {
@@ -30,7 +30,7 @@ body {
 }
 
 .keypads {
-  width: 32%;
+  width: 30%;
   border: 1px solid #bbb;
   margin: 12% auto;
   height: auto;
