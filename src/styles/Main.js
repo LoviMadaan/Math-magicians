@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Container = styled.div`
 display: grid;
@@ -44,15 +44,10 @@ export const Button = styled.button`
   &:hover {
     background-color: rgba(255, 255, 255, 0.9);
   }
-  ${function ({ gridSpan }) {
-    if (gridSpan) {
-      return `grid-column: span ${gridSpan} ;`;
-    }
-  }};
-  ${({ operations }) => operations && `background-color:gray;`};
-  ${({ control }) => control && `background-color:skyBlue;`};
-  ${({ equals }) =>
-    equals && `background-color:pink;border-bottom-right-radius:11px;`};
-  ${({ decimal }) =>
-    decimal && `background-color:skyBlue;border-bottom-left-radius:11px;`};
+  ${({ gridSpan }) => `grid-column: span ${gridSpan} ;`
+}};
+  ${({ operations }) => operations && 'background-color:gray;'};
+  ${({ control }) => control && 'background-color:skyBlue;'};
+  ${({ equals }) => equals && 'background-color:pink;border-bottom-right-radius:11px;'};
+  ${({ decimal }) => decimal && 'background-color:skyBlue;border-bottom-left-radius:11px;'};
 `;
