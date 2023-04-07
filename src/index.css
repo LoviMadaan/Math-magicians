@@ -22,7 +22,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(87, 87, 87);
+  background: linear-gradient(rgb(143, 238, 227), rgb(81, 218, 234));
 }
 
 #root {
@@ -30,9 +30,9 @@ body {
 }
 
 .keypads {
-  width: 30%;
-  border: 1px solid #bbb;
-  margin: 12% auto;
+  width: 31%;
+  border: 2px solid #bbb;
+  margin: 11% auto;
   height: auto;
 }
 
@@ -51,12 +51,12 @@ body {
   padding: 1rem;
   font-size: 1rem;
   cursor: pointer;
-  border: 1px solid  #ddd;
-  background-color: #fff;
+  border: 1px solid  #f3e9e9;
+  background-color: #e4e0e0;
 }
 
 .keypads-btn button:hover {
-  background-color: #ddd;
+  background-color: #f3e7e7;
 }
 
 .keypads-btn button.zero {
@@ -64,9 +64,9 @@ body {
 }
 
 .keypads-btn button.bg-orange {
-  background-color: rgb(255, 174, 24);
+  background-color: rgb(242, 202, 129);
 }
 
 .keypads-btn button.bg-orange:hover {
-  background-color: rgb(246, 192, 92);
+  background-color: rgb(243, 186, 81);
 }
