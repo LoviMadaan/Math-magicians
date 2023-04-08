@@ -1,4 +1,3 @@
-/* eslint-disable */
 import Calculator from './components/calculator';
 
 function App() {
