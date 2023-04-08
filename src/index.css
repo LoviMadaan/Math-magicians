@@ -22,17 +22,32 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: linear-gradient(rgb(143, 238, 227), rgb(81, 218, 234));
+  background: linear-gradient(rgb(231, 184, 237), rgb(245, 109, 236))
 }
 
 #root {
   height: auto;
 }
 
+.calculators-container {
+  width: 70%;
+  margin: 7% auto;
+  display: flex;
+  background-color: rgb(188, 43, 118);
+  padding: 2%;
+}
+
+.calculators-container h2 {
+  color: #fff;
+  width: 51%;
+  height: auto;
+  padding: 4rem;
+}
+
 .keypads {
-  width: 31%;
-  border: 2px solid #bbb;
-  margin: 11% auto;
+  width: 40%;
+  border: 1px solid #bbb;
+  margin: 0 auto;
   height: auto;
 }
 
@@ -46,27 +61,80 @@ body {
   background-color: hsl(0, 1%, 65%);
 }
 
-.keypads-btn button {
+.keypad-btn button {
   width: 25%;
   padding: 1rem;
   font-size: 1rem;
   cursor: pointer;
-  border: 1px solid  #f3e9e9;
-  background-color: #e4e0e0;
+  border: 1px solid  #ddd;
+  background-color: #fff;
 }
 
-.keypads-btn button:hover {
-  background-color: #f3e7e7;
+.keypad-btn button:hover {
+  background-color: #ddd;
 }
 
-.keypads-btn button.zero {
+.keypad-btn button.zero {
   width: 50%;
 }
 
-.keypads-btn button.bg-orange {
-  background-color: rgb(242, 202, 129);
+.keypad-btn button.bg-orange {
+  background-color: rgb(255, 174, 24);
 }
 
-.keypads-btn button.bg-orange:hover {
-  background-color: rgb(243, 186, 81);
+.keypad-btn button.bg-orange:hover {
+  background-color: rgb(246, 192, 92);
+}
+
+.theHomeContainer {
+  background-color: #830858;
+  color: #eff6f7;
+  width: 81%;
+  margin: 8% auto;
+  padding: 4rem;
+}
+
+.theHomeContainer h1 {
+  margin-bottom: 2rem;
+}
+
+.theHomeContainer p {
+  width: 90%;
+  margin-left: 2rem;
+  text-align: justify;
+  line-height: 1.4rem;
+}
+
+.theNavBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #def25f;
+}
+
+.theNavBar h1 {
+  margin-left: 2rem;
+}
+
+.theNavBar ul {
+  list-style-type: none;
+  display: flex;
+  gap: 1rem;
+  margin-right: 2rem;
+  cursor: pointer;
+}
+
+.quotes {
+  background-color: #f154c2;
+  color: #fff;
+  width: 81%;
+  margin: 7% auto;
+  padding: 2rem;
+}
+
+.quotes p {
+  text-align: justify;
+  line-height: 1.4rem;
+  font-weight: 800;
+  font-style: italic;
 }
