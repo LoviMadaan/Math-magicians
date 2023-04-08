@@ -8,7 +8,7 @@ const Quotes = () => {
   useEffect(() => {
     const fetchData = async () => {
       const apiKey = 'XuKHhxC6MfTaFVJtb/DvGA==u1EBJAFxUnnN5810';
-      const option = {
+      const options = {
         method: 'GET',
         headers: {
           'Content-Type': 'application/json',
@@ -17,7 +17,7 @@ const Quotes = () => {
       };
       const cateGory = 'god';
       const url = `https://api.api-ninjas.com/v1/quotes?category=${cateGory}`;
-      const response = await fetch(url, option);
+      const response = await fetch(url, options);
       if (!response.ok) {
         throw new Error('Could not fetch data');
       }
@@ -36,11 +36,11 @@ const Quotes = () => {
       });
   }, [setQuote, setIsLoading]);
   return (
-    <div className="quotes">
+    <div className="quote" data-testid="quote-cont">
       {error && <h2>{ error }</h2>}
       { isLoading && <h2>Loading...</h2> }
       { quote && (
-      <p>
+      <p data-testid="quote-heading">
         { quote.quote }
         {quote.author && ` -- ${quote.author}`}
       </p>

@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 
 const NavBar = () => (
-  <nav className="theNavBar">
+  <nav className="navBar">
     <h1>Math Magicians</h1>
     <ul>
       <li>

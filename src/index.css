@@ -22,36 +22,36 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: linear-gradient(rgb(231, 184, 237), rgb(245, 109, 236))
+  background: linear-gradient(rgb(236, 154, 168), rgb(239, 78, 105))
 }
 
 #root {
   height: auto;
 }
 
-.calculators-container {
+.calculator-container {
   width: 70%;
   margin: 7% auto;
   display: flex;
-  background-color: rgb(188, 43, 118);
+  background-color: rgb(237, 32, 80);
   padding: 2%;
 }
 
-.calculators-container h2 {
+.calculator-container h2 {
   color: #fff;
-  width: 51%;
+  width: 50%;
   height: auto;
   padding: 4rem;
 }
 
-.keypads {
+.keypad {
   width: 40%;
   border: 1px solid #bbb;
   margin: 0 auto;
   height: auto;
 }
 
-.keypads p {
+.keypad p {
   text-align: end;
   padding-right: 1rem;
   padding-top: 1.5rem;
@@ -86,37 +86,38 @@ body {
   background-color: rgb(246, 192, 92);
 }
 
-.theHomeContainer {
-  background-color: #830858;
-  color: #eff6f7;
-  width: 81%;
+.homeContainer {
+  /* background-color: #d3d0d0; */
+  background-color: #d92a70;
+  color: #fff;
+  width: 80%;
   margin: 8% auto;
   padding: 4rem;
 }
 
-.theHomeContainer h1 {
+.homeContainer h1 {
   margin-bottom: 2rem;
 }
 
-.theHomeContainer p {
+.homeContainer p {
   width: 90%;
   margin-left: 2rem;
   text-align: justify;
   line-height: 1.4rem;
 }
 
-.theNavBar {
+.navBar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #def25f;
+  background-color: #fff;
 }
 
-.theNavBar h1 {
+.navBar h1 {
   margin-left: 2rem;
 }
 
-.theNavBar ul {
+.navBar ul {
   list-style-type: none;
   display: flex;
   gap: 1rem;
@@ -124,15 +125,15 @@ body {
   cursor: pointer;
 }
 
-.quotes {
-  background-color: #f154c2;
+.quote {
+  background-color: #bc1c54;
   color: #fff;
-  width: 81%;
-  margin: 7% auto;
+  width: 80%;
+  margin: 8% auto;
   padding: 2rem;
 }
 
-.quotes p {
+.quote p {
   text-align: justify;
   line-height: 1.4rem;
   font-weight: 800;

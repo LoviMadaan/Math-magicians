@@ -1,8 +1,8 @@
 import { Route, Routes } from 'react-router-dom';
-import NavBar from './components/NavBar';
-import Quotes from './components/Quotes';
 import Calculator from './components/Calculator';
+import Quotes from './components/Quotes';
 import Home from './components/Home';
+import NavBar from './components/NavBar';
 
 function App() {
   return (

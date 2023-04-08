@@ -3,9 +3,9 @@ import PropTypes from 'prop-types';
 const Keypads = ({ handleClick, state }) => {
   const { total, next, operation } = state;
   return (
-    <div className="calculators-container">
+    <div className="calculator-container">
       <h2>Let&apos;s do some Math!</h2>
-      <div className="keypads">
+      <div className="keypad">
         <p>
           {total}
           {' '}

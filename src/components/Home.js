@@ -1,5 +1,5 @@
 const Home = () => (
-  <div className="theHomeContainer">
+  <div className="homeContainer">
     <h1>Welcome to our first react app page!</h1>
     {/* eslint-disable-next-line max-len  */}
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto tempore praesentium veritatis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus pariatur, quisquam dicta excepturi placeat omnis tenetur beatae facere commodi at culpa similique, ut cumque, alias magnam ipsa reiciendis possimus blanditiis.</p>
