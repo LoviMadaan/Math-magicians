@@ -1,19 +1,14 @@
-import { Route, Routes } from 'react-router-dom';
-import Calculator from './components/Calculator';
-import Quotes from './components/Quotes';
-import Home from './components/Home';
-import NavBar from './components/NavBar';
+/* import { Link, Routes, Route } from "react-router-dom"; */
+/* import MyCalculator from './components/calculator/calculator';
+import MyQuotes from './components/quotes/quotes';
+import Home from "./components/home/home"; */
+import Header from './components/Header/header';
 
 function App() {
   return (
-    <div className="App">
-      <NavBar />
-      <Routes>
-        <Route index element={<Home />} />
-        <Route path="/Calculator" element={<Calculator />} />
-        <Route path="/Quote" element={<Quotes />} />
-      </Routes>
-    </div>
+    <>
+      <Header />
+    </>
   );
 }
 
