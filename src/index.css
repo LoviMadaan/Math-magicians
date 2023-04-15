@@ -22,21 +22,36 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: linear-gradient(rgb(143, 238, 227), rgb(81, 218, 234));
+  background: linear-gradient(rgb(236, 154, 168), rgb(239, 78, 105));
 }
 
 #root {
   height: auto;
 }
 
-.keypads {
-  width: 31%;
-  border: 2px solid #bbb;
-  margin: 11% auto;
+.calculator-container {
+  width: 70%;
+  margin: 7% auto;
+  display: flex;
+  background-color: rgb(237, 32, 80);
+  padding: 2%;
+}
+
+.calculator-container h2 {
+  color: #fff;
+  width: 50%;
+  height: auto;
+  padding: 4rem;
+}
+
+.keypad {
+  width: 40%;
+  border: 1px solid #bbb;
+  margin: 0 auto;
   height: auto;
 }
 
-.keypads p {
+.keypad p {
   text-align: end;
   padding-right: 1rem;
   padding-top: 1.5rem;
@@ -46,27 +61,81 @@ body {
   background-color: hsl(0, 1%, 65%);
 }
 
-.keypads-btn button {
+.keypad-btn button {
   width: 25%;
   padding: 1rem;
   font-size: 1rem;
   cursor: pointer;
-  border: 1px solid  #f3e9e9;
-  background-color: #e4e0e0;
+  border: 1px solid  #ddd;
+  background-color: #fff;
 }
 
-.keypads-btn button:hover {
-  background-color: #f3e7e7;
+.keypad-btn button:hover {
+  background-color: #ddd;
 }
 
-.keypads-btn button.zero {
+.keypad-btn button.zero {
   width: 50%;
 }
 
-.keypads-btn button.bg-orange {
-  background-color: rgb(242, 202, 129);
+.keypad-btn button.bg-orange {
+  background-color: rgb(255, 174, 24);
 }
 
-.keypads-btn button.bg-orange:hover {
-  background-color: rgb(243, 186, 81);
+.keypad-btn button.bg-orange:hover {
+  background-color: rgb(246, 192, 92);
+}
+
+.homeContainer {
+  /* background-color: #d3d0d0; */
+  background-color: #d92a70;
+  color: #fff;
+  width: 80%;
+  margin: 8% auto;
+  padding: 4rem;
+}
+
+.homeContainer h1 {
+  margin-bottom: 2rem;
+}
+
+.homeContainer p {
+  width: 90%;
+  margin-left: 2rem;
+  text-align: justify;
+  line-height: 1.4rem;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+}
+
+.navBar h1 {
+  margin-left: 2rem;
+}
+
+.navBar ul {
+  list-style-type: none;
+  display: flex;
+  gap: 1rem;
+  margin-right: 2rem;
+  cursor: pointer;
+}
+
+.quote {
+  background-color: #bc1c54;
+  color: #fff;
+  width: 80%;
+  margin: 8% auto;
+  padding: 2rem;
+}
+
+.quote p {
+  text-align: justify;
+  line-height: 1.4rem;
+  font-weight: 800;
+  font-style: italic;
 }

@@ -9,7 +9,7 @@ const Calculator = () => {
     operation: null,
   });
 
-  const handleOnClick = (e) => {
+  const handleButtonClick = (e) => {
     const targetText = e.target.textContent;
     const newState = calculate(state, targetText);
     setState(newState);
@@ -17,7 +17,7 @@ const Calculator = () => {
   return (
     <div>
 
-      <Keypads handleOnClick={handleOnClick} state={state} />
+      <Keypads handleClick={handleButtonClick} state={state} />
     </div>
   );
 };
