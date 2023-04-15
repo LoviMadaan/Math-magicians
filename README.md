@@ -1,13 +1,23 @@
-# Math-magicians
 <a name="readme-top"></a>
 
-<div align="center">
-  
-  <br/>
+<!--[](https://img.shields.io/badge/Microverse-blueviolet) -->
 
-  <h3><b>Math Magicians</b></h3>
+<div align="center">
 
 </div>
+
+<!-- Open pull request using the following structure
+
+  ## Project title: subtitle
+
+  ### 🌟Branch features:
+
+  - i
+  - ii
+  - iii
+-->
+
+> # Math Magicians
 
 # 📗 Table of Contents
 
@@ -49,8 +59,6 @@ HTML CSS JavaScript React and redux
 ## 🚀 Live Demo <a name="live-demo"> </a>
 
 - [Live Demo](Will be available after final approval)
-
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -116,7 +124,7 @@ If you like this project please consider leaving a review.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
+ I would like to thank Microverse and my learning partners.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
